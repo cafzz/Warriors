@@ -4,6 +4,7 @@ function MudarCor(){
     const imagens = {
 "Off White": "WRS-BSC-OVR.webp",
 "marrom": "WRS-BSC-OVR2.webp",
-"Preta": ""
+"Preta": "WRS-BSC-OVR3.webp"
     }
-}
+};
+if (imagens[corSelecionada]) {imagemCamisa.src = imagens[corSelecionada]};
