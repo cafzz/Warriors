@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f5f5f5 ;
+    color: #333;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo h1{
+    font-size: 24px;
+    margin: 0;
+}
+.logo p{
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0 0;
+}
+.logo img{
+    max-width: 100px;
+}
+.carrinho button{
+    background: none;
+    border: none;
+    cursor:pointer;
+}
+.carrinho img{
+    width: 7px;
+    height: auto;
+}
+
+section.camisas{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+.camisa{
+    background: #FFF;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 280%;
+    padding: 40px;
+}
+.camisa img{
+    width: 100%;
+    height: auto;
+    }
+    .camisa h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .camisa p{
+        color: #777;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    select{
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 5px 0;
+    }
+    .preço{
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+    }
+    button.adicionar-ao-carrinho{
+        background: #000;
+        color: #FFF;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    button.adicionar-ao-carrinho{
+        background: #333
+    }
